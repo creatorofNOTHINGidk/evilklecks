@@ -222,7 +222,7 @@ export class KlApp {
         // but not larger than 4096 - a fairly arbitrary decision
         const maxCanvasSize = Math.min(
             4096,
-            Math.max(2048, Math.max(window.screen.width, window.screen.height)),
+            Math.max(8192, Math.max(window.screen.width, window.screen.height)),
         );
         this.uiState = (
             this.embed
